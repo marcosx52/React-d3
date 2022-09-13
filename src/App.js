@@ -1,6 +1,7 @@
 import './App.css';
 import NavBar from './components/Navbar/Navbar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer'
+import ItemDetailContainer from './components/ItemDetailContainer/itemDetailContainer';
 // Bootstrap CSS
 import "bootstrap/dist/css/bootstrap.css";
 // Bootstrap Bundle JS
@@ -10,7 +11,7 @@ function App() {
   return(
       <header>
         <NavBar/>
-        <ItemListContainer/>
+        <ItemDetailContainer/>
       </header>
   )
 }
